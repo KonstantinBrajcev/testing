@@ -7,13 +7,6 @@
 
 class ProductTest extends TestCase
 {
-    // use RefreshDatabase;
-
-    // public function test_example(): void
-    // {
-    //     $response = $this->get('/');
-    //     $response->assertStatus(200);
-    // }
     public function test_products_can_be_indexed()
     {
         $response = $this->get('products');
